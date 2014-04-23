@@ -1,0 +1,226 @@
+/*
+ * ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * <hello@david-bernard.ch> wrote this file. As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can buy me a beer in return David Bernard
+ * Inspired by Poul-Henning Kamp's beerware license (http://en.wikipedia.org/wiki/Beerware)
+ * ----------------------------------------------------------------------------
+ */
+
+/* CLASS DENOMINATION PATTERNS ARE INSPIRED FROM BOOTSTRAP'S CLASSES */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+*[class|=col] {
+	flex: 1;
+	flex-basis: 100%;
+}
+.col-xs-12 {flex: 0 0 100%;}
+.col-xs-11 {flex: 0 0 91.6666%;}
+.col-xs-10 {flex: 0 0 83.3333%;}
+.col-xs-9 {flex: 0 0 75%;}
+.col-xs-8 {flex: 0 0 66.6666%;}
+.col-xs-7 {flex: 0 0 58.3333%;}
+.col-xs-6 {flex: 0 0 50%;}
+.col-xs-5 {flex: 0 0 41.6666%;}
+.col-xs-4 {flex: 0 0 33.3333%;}
+.col-xs-3 {flex: 0 0 25%;}
+.col-xs-2 {flex: 0 0 16.6666%;}
+.col-xs-1 {flex: 0 0 8.3333%;}
+
+.col-xs-offset-11 {margin-left: 91.6666%;}
+.col-xs-offset-10 {margin-left: 83.3333%;}
+.col-xs-offset-9 {margin-left: 75%;}
+.col-xs-offset-8 {margin-left: 66.6666%;}
+.col-xs-offset-7 {margin-left: 58.3333%;}
+.col-xs-offset-6 {margin-left: 50%;}
+.col-xs-offset-5 {margin-left: 41.6666%;}
+.col-xs-offset-4 {margin-left: 33.3333%;}
+.col-xs-offset-3 {margin-left: 25%;}
+.col-xs-offset-2 {margin-left: 16.6666%;}
+.col-xs-offset-1 {margin-left: 8.3333%;}
+
+/* VISIBLE AND HIDDEN */
+.visible-xs {display: block;}
+.hidden-xs {display: none;}
+.visible-sm {display: none;}
+.hidden-sm {display: block;}
+.visible-md {display: none;}
+.hidden-md {display: block;}
+.visible-lg {display: none;}
+.hidden-lg {display: block;}
+
+/* ORDER */
+.order-xs-12 {order: 12;}
+.order-xs-11 {order: 11;}
+.order-xs-10 {order: 10;}
+.order-xs-9 {order: 9;}
+.order-xs-8 {order: 8;}
+.order-xs-7 {order: 7;}
+.order-xs-6 {order: 6;}
+.order-xs-5 {order: 5;}
+.order-xs-4 {order: 4;}
+.order-xs-3 {order: 3;}
+.order-xs-2 {order: 2;}
+.order-xs-1 {order: 1;}
+
+/* ALIGNEMENT */
+.align {
+	align-items: center;
+	justify-content: center;
+}
+.align--top {align-self: flex-start;}
+.align--bottom {align-self: flex-end;}
+
+@media (min-width: 768px) {
+	.col-sm-12 {flex: 0 0 100%;}
+	.col-sm-11 {flex: 0 0 91.6666%;}
+	.col-sm-10 {flex: 0 0 83.3333%;}
+	.col-sm-9 {flex: 0 0 75%;}
+	.col-sm-8 {flex: 0 0 66.6666%;}
+	.col-sm-7 {flex: 0 0 58.3333%;}
+	.col-sm-6 {flex: 0 0 50%;}
+	.col-sm-5 {flex: 0 0 41.6666%;}
+	.col-sm-4 {flex: 0 0 33.3333%;}
+	.col-sm-3 {flex: 0 0 25%;}
+	.col-sm-2 {flex: 0 0 16.6666%;}
+	.col-sm-1 {flex: 0 0 8.3333%;}
+
+	.col-sm-offset-11 {margin-left: 91.6666%;}
+	.col-sm-offset-10 {margin-left: 83.3333%;}
+	.col-sm-offset-9 {margin-left: 75%;}
+	.col-sm-offset-8 {margin-left: 66.6666%;}
+	.col-sm-offset-7 {margin-left: 58.3333%;}
+	.col-sm-offset-6 {margin-left: 50%;}
+	.col-sm-offset-5 {margin-left: 41.6666%;}
+	.col-sm-offset-4 {margin-left: 33.3333%;}
+	.col-sm-offset-3 {margin-left: 25%;}
+	.col-sm-offset-2 {margin-left: 16.6666%;}
+	.col-sm-offset-1 {margin-left: 8.3333%;}
+
+	/* VISIBLE AND HIDDEN */
+	.visible-xs {display: none;}
+	.hidden-xs {display: block;}
+	.visible-sm {display: block;}
+	.hidden-sm {display: none;}
+	.visible-md {display: none;}
+	.hidden-md {display: block;}
+	.visible-lg {display: none;}
+	.hidden-lg {display: block;}
+
+	/* ORDER */
+	.order-sm-12 {order: 12;}
+	.order-sm-11 {order: 11;}
+	.order-sm-10 {order: 10;}
+	.order-sm-9 {order: 9;}
+	.order-sm-8 {order: 8;}
+	.order-sm-7 {order: 7;}
+	.order-sm-6 {order: 6;}
+	.order-sm-5 {order: 5;}
+	.order-sm-4 {order: 4;}
+	.order-sm-3 {order: 3;}
+	.order-sm-2 {order: 2;}
+	.order-sm-1 {order: 1;}
+}
+@media (min-width: 992px) {
+	.col-md-12 {flex: 0 0 100%;}
+	.col-md-11 {flex: 0 0 91.6666%;}
+	.col-md-10 {flex: 0 0 83.3333%;}
+	.col-md-9 {flex: 0 0 75%;}
+	.col-md-8 {flex: 0 0 66.6666%;}
+	.col-md-7 {flex: 0 0 58.3333%;}
+	.col-md-6 {flex: 0 0 50%;}
+	.col-md-5 {flex: 0 0 41.6666%;}
+	.col-md-4 {flex: 0 0 33.3333%;}
+	.col-md-3 {flex: 0 0 25%;}
+	.col-md-2 {flex: 0 0 16.6666%;}
+	.col-md-1 {flex: 0 0 8.3333%;}
+
+	.col-md-offset-11 {margin-left: 91.6666%;}
+	.col-md-offset-10 {margin-left: 83.3333%;}
+	.col-md-offset-9 {margin-left: 75%;}
+	.col-md-offset-8 {margin-left: 66.6666%;}
+	.col-md-offset-7 {margin-left: 58.3333%;}
+	.col-md-offset-6 {margin-left: 50%;}
+	.col-md-offset-5 {margin-left: 41.6666%;}
+	.col-md-offset-4 {margin-left: 33.3333%;}
+	.col-md-offset-3 {margin-left: 25%;}
+	.col-md-offset-2 {margin-left: 16.6666%;}
+	.col-md-offset-1 {margin-left: 8.3333%;}
+
+	/* VISIBLE AND HIDDEN */
+	.visible-xs {display: none;}
+	.hidden-xs {display: block;}
+	.visible-sm {display: none;}
+	.hidden-sm {display: block;}
+	.visible-md {display: block;}
+	.hidden-md {display: none;}
+	.visible-lg {display: none;}
+	.hidden-lg {display: block;}
+
+	/* ORDER */
+	.order-md-12 {order: 12;}
+	.order-md-11 {order: 11;}
+	.order-md-10 {order: 10;}
+	.order-md-9 {order: 9;}
+	.order-md-8 {order: 8;}
+	.order-md-7 {order: 7;}
+	.order-md-6 {order: 6;}
+	.order-md-5 {order: 5;}
+	.order-md-4 {order: 4;}
+	.order-md-3 {order: 3;}
+	.order-md-2 {order: 2;}
+	.order-md-1 {order: 1;}
+}
+@media (min-width: 1200px) {
+	.col-lg-12 {flex: 0 0 100%;}
+	.col-lg-11 {flex: 0 0 91.6666%;}
+	.col-lg-10 {flex: 0 0 83.3333%;}
+	.col-lg-9 {flex: 0 0 75%;}
+	.col-lg-8 {flex: 0 0 66.6666%;}
+	.col-lg-7 {flex: 0 0 58.3333%;}
+	.col-lg-6 {flex: 0 0 50%;}
+	.col-lg-5 {flex: 0 0 41.6666%;}
+	.col-lg-4 {flex: 0 0 33.3333%;}
+	.col-lg-3 {flex: 0 0 25%;}
+	.col-lg-2 {flex: 0 0 16.6666%;}
+	.col-lg-1 {flex: 0 0 8.3333%;}
+
+	.col-lg-offset-11 {margin-left: 91.6666%;}
+	.col-lg-offset-10 {margin-left: 83.3333%;}
+	.col-lg-offset-9 {margin-left: 75%;}
+	.col-lg-offset-8 {margin-left: 66.6666%;}
+	.col-lg-offset-7 {margin-left: 58.3333%;}
+	.col-lg-offset-6 {margin-left: 50%;}
+	.col-lg-offset-5 {margin-left: 41.6666%;}
+	.col-lg-offset-4 {margin-left: 33.3333%;}
+	.col-lg-offset-3 {margin-left: 25%;}
+	.col-lg-offset-2 {margin-left: 16.6666%;}
+	.col-lg-offset-1 {margin-left: 8.3333%;}
+
+	/* VISIBLE AND HIDDEN */
+	.visible-xs {display: none;}
+	.hidden-xs {display: block;}
+	.visible-sm {display: none;}
+	.hidden-sm {display: block;}
+	.visible-md {display: none;}
+	.hidden-md {display: block;}
+	.visible-lg {display: block;}
+	.hidden-lg {display: none;}
+
+	/* ORDER */
+	.order-lg-12 {order: 12;}
+	.order-lg-11 {order: 11;}
+	.order-lg-10 {order: 10;}
+	.order-lg-9 {order: 9;}
+	.order-lg-8 {order: 8;}
+	.order-lg-7 {order: 7;}
+	.order-lg-6 {order: 6;}
+	.order-lg-5 {order: 5;}
+	.order-lg-4 {order: 4;}
+	.order-lg-3 {order: 3;}
+	.order-lg-2 {order: 2;}
+	.order-lg-1 {order: 1;}
+}
