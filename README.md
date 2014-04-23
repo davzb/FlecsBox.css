@@ -2,15 +2,19 @@
 ====
 ## Quick Start
 
-Try on Demo page.
+Demo page coming soon.
 
 ## Getting Started
 
 Add CSS grid into `head` markup
 
 ```html
-<link rel="stylesheet" href="flexbox-grid/lib/flexbox-grid.css">
+<link rel="stylesheet" href="your-style-repository/flexbox-grid/lib/flexbox-grid.css">
 ```
+
+## Documentation
+
+Wiki page coming soon.
 
 ## Special Thanks
 
