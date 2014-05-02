@@ -2,7 +2,7 @@
 ====
 ## Quick Start
 
-Demo page coming soon.
+[Demo page](http://davzb.github.io/flexbox-grid).
 
 ## Getting Started
 
