@@ -14,7 +14,7 @@ Add CSS grid into `head` markup
 
 ## Documentation
 
-Wiki page coming soon.
+[Wiki page](https://github.com/davzb/flexbox-grid/wiki).
 
 ## Special Thanks
 
