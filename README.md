@@ -2,19 +2,19 @@
 ====
 ## Quick Start
 
-[Demo page](http://davzb.github.io/flexbox-grid).
+[Demo page](http://davzb.github.io/FlecsBox.css).
 
 ## Getting Started
 
 Add CSS grid into `head` markup
 
 ```html
-<link rel="stylesheet" href="your-style-repository/flexbox-grid/lib/flexbox-grid.css">
+<link rel="stylesheet" href="your-style-repository/flexbox-grid/lib/FlecsBox.css">
 ```
 
 ## Documentation
 
-[Wiki page](https://github.com/davzb/flexbox-grid/wiki).
+[Wiki page](https://github.com/davzb/FlecsBox.css/wiki).
 
 ## Special Thanks
 
@@ -24,6 +24,6 @@ Add CSS grid into `head` markup
 
 ## Licence
 
-Source code can be found on [github](https://github.com/davzb/flexbox-grid), licenced under [Beer-ware](http://en.wikipedia.org/wiki/Beerware).
+Source code can be found on [github](https://github.com/davzb/FlecsBox.css), licenced under [Beer-ware](http://en.wikipedia.org/wiki/Beerware).
 
 Developed by [David Bernard](http://www.david-bernard.ch) | [davidbernardCH](https://twitter.com/davidbernardCH)
