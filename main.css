@@ -3,17 +3,60 @@
 }
 body {
 	margin: 0 auto;
-	background: #eeeeee;
-	font-family: 'Montserrat', 'sans-serif';
+	font-family: 'Droid Sans', sans-serif;
 }
-header,
+header {
+	height: 330px;
+	width: 100%;
+	text-align: center;
+	padding: 25px 15px;
+}
+header h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	margin-bottom: 10px;
+	color: #89B0AE;
+}
+header h2 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	margin-top: 0;
+	font-weight: 400;
+	color: #555B6E;
+}
+header hr {
+	margin: 35px auto 25px;
+	width: 50px;
+	border: 0;
+	height: 1px;
+	background: #FFD6BA;
+}
+header .github-button {
+	display: inline-block;
+	border-radius: 4px;
+	padding: 15px 25px;
+	color: #555B6E;
+	background: #BEE3DB;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+header .github-button:hover {
+	background: #89B0AE;
+	color: #FAF9F9;
+}
 footer {
 	padding: 5px 15px;
-	background: #333333;
-	color: #eeeeee;
+	background: #89B0AE;
+	color: #FAF9F9;
 	width: 100%;
 	text-align: center;
 }
+footer a {color: #555B6E;}
+footer a:hover {color: #FFD6BA;}
 footer {padding: 30px 15px;}
 aside {}
 aside nav ul {
@@ -38,18 +81,62 @@ aside nav ul li a:hover {
 main {
 	padding: 10px;
 	width: 100%;
+	background: #555B6E;
 }
-section, article {padding: 0 10px;}
+section {
+	background: #FAF9F9;
+	margin-bottom: 40px;
+	border-top: 6px solid #E5C0A7;
+	-webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+}
+section, article {padding: 20px;}
+section h2,
+article h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #555B6E;
+}
+section p,
+article p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	font-weight: 400;
+	color: #555B6E;
+}
+section ul,
+article ul {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	font-weight: 400;
+	color: #555B6E;
+}
+section a,
+article a {
+	color: #89B0AE;
+}
+section a:hover,
+article a:hover {
+	color: #BEE3DB;
+}
 section .row {
 	margin: 10px 0;
 	border-radius: 3px;
 	overflow: hidden;
 }
 section .row div {
-	background: #cccccc;
-	border: 1px solid #bbbbbb;
+	background: #FFD6BA;
+	border: 1px solid #E5C0A7;
 	padding: 15px;
 	text-align: center;
+
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	font-weight: 400;
+	color: #A58A78;
 }
 section .row img {max-width: 100%;}
 section .row.noborder div {
@@ -73,5 +160,5 @@ section .row.noborder .row {
 	padding: 30px;
 	width: 100%;
   }
-  section, article {padding: 0 30px;}
+  section, article {padding: 30px;}
 }
